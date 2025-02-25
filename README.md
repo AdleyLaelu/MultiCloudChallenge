@@ -58,3 +58,27 @@ In this step, we will ensure that Terraform is set up properly.
 First, create a new directory for the Terraform project and navigate into it:
 ```bash
 mkdir terraform-project && cd terraform-project
+```
+# Terraform Setup for S3 Bucket and DynamoDB Table
+
+This repository contains the Terraform configuration to create an S3 bucket and a DynamoDB table.
+
+## Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) installed.
+- AWS CLI installed and configured with valid AWS credentials.
+- Appropriate permissions in your AWS account for creating S3 buckets and DynamoDB tables.
+
+## Steps
+
+### 1. Initialize the Terraform Platform
+
+Inside the directory containing the `main.tf` file, run:
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+![Capture d’écran 2025-02-25 184103](https://github.com/user-attachments/assets/8922489e-8858-4b8a-9d82-012ca5aa53ea)
+
