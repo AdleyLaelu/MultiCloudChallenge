@@ -36,3 +36,24 @@ In this project, we automate the provisioning of an **S3 bucket** and a **Dynamo
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+
+
+# **Terraform Installation & Configuration**
+
+## **1️⃣ Install Terraform**
+
+To install Terraform on a **Linux** system, follow these steps:
+
+### **Step 1: Add HashiCorp GPG Key**
+```sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
+
+
+## **2️⃣ Terraform Configuration**
+
+In this step, we will ensure that Terraform is set up properly.
+
+### **Create a Terraform Project Directory**
+First, create a new directory for the Terraform project and navigate into it:
+```bash
+mkdir terraform-project && cd terraform-project
