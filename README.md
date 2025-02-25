@@ -1,5 +1,6 @@
 # ☁️ MultiCloud, DevOps & AI Challenge - Day 1
 ## Automating AWS Provisioning of S3 Bucket and DynamoDB using Terraform
+![dynamodb-terraform-s3](https://github.com/user-attachments/assets/6c3a4e29-f4e5-4939-8249-365d8ae44d8e)
 
 ## 📌 Project Overview
 In this project, we automate the provisioning of an **S3 bucket** and a **DynamoDB table** using **Terraform**. These resources serve as the foundation for a cloud-based **eCommerce application**, where:
