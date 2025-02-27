@@ -69,7 +69,7 @@ This repository contains the Terraform configuration to create an S3 bucket and 
 - AWS CLI installed and configured with valid AWS credentials.
 - Appropriate permissions in your AWS account for creating S3 buckets and DynamoDB tables.
 
-## Steps
+## Steps 
 
 ### 1. Initialize the Terraform Platform
 
